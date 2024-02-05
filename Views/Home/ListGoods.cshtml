@@ -1,0 +1,86 @@
+﻿@model System.Data.DataTable
+@using System.Data
+@{
+    ViewBag.Title = "Goods List";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<h1>List of Good Donations</h1>
+
+<a href="Good_Donations"><button class="add-button">Add Donation</button></a> <!-- Add a button with class "add-button" -->
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Email</th>
+            <th>Donor Name</th>
+            <th>Date</th>
+            <th>Number Of Items</th>
+            <th>Category</th>
+            <th>Description</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (DataRow row in Model.Rows)
+        {
+            <tr>
+
+                <td>@row["Email"]</td>
+                <td>@row["DonarName"]</td>
+                <td>@row["Date"]</td>
+                <td>@row["NumItems"]</td>
+                <td>@row["Category"]</td>
+                <td>@row["Description"]</td>
+                <td>
+                    <a href="@Url.Action("EditGoods", "Home", new { id = row["GoodId"] })">Edit</a> |
+                    <a href="@Url.Action("GoodDeatils", "Home", new { id = row["GoodId"] })">Details</a> |
+                    <a href="@Url.Action("DeletGoods", "Home", new { id = row["GoodId"] })">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<style>
+    /* Add your CSS styles here */
+    body {
+        background-color: purple
+    }
+
+    .table {
+        width: 100%;
+        background-color: orangered;
+        border-collapse: collapse;
+    }
+
+        .table th {
+            background-color: orange;
+            border: 1px solid orange;
+            padding: 8px;
+            text-align: left;
+        }
+
+        .table td {
+            border: 1px solid orange;
+            padding: 8px;
+            text-align: left;
+        }
+
+        .table tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+    .add-button {
+        background-color: orange; /* Green background color */
+        border: none; /* Remove border */
+        color: white; /* White text color */
+        padding: 10px 20px; /* Padding */
+        text-align: center; /* Center text */
+        text-decoration: none; /* Remove underline */
+        display: inline-block; /* Display as inline-block */
+        font-size: 16px; /* Increase font size */
+        margin: 4px 2px; /* Margin */
+        cursor: pointer; /* Add a pointer cursor on hover */
+        border-radius: 12px; /* Rounded corners */
+    }
+</style>

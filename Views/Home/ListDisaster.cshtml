@@ -1,0 +1,88 @@
+﻿@model System.Data.DataTable
+@using System.Data
+@{
+    ViewBag.Title = "Disaster List";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>List of Disaster Donations</h1>
+
+<a href="Disaster"><button class="add-button">Add Donation</button></a>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Email</th>
+            <th>Start Date</th>
+            <th>End Date</th>
+            <th>Location</th>
+            <th>Description</th>
+            <th>Aid Type</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (DataRow row in Model.Rows)
+        {
+            <tr>
+                <td>@row["Email"]</td>
+                <td>@row["Start_date"]</td>
+                <td>@row["End_date"]</td>
+                <td>@row["Location"]</td>
+                <td>@row["Description"]</td>
+                <td>@row["Aid_types"]</td>
+                <td>
+                    <a href="@Url.Action("EditDisaster", "Home", new {id = row["DisasterID"]})">Edit</a> |
+                    <a href="@Url.Action("DisasterDetails", "Home", new {id = row["DisasterID"] })">Details</a> |
+                    <a href="@Url.Action("DeletDisaster", "Home", new { id = row["DisasterID"]})">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<style>
+    /* Add your CSS styles here */
+    body {
+        background-color: purple
+    }
+
+    .table {
+        width: 100%;
+        background-color: orangered;
+        border-collapse: collapse;
+    }
+
+        .table th {
+            background-color: orange;
+            border: 1px solid orange;
+            padding: 8px;
+            text-align: left;
+        }
+
+        .table td {
+            border: 1px solid orange;
+            padding: 8px;
+            text-align: left;
+        }
+
+        .table tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+    .add-button {
+        background-color: orange; /* Green background color */
+        border: none; /* Remove border */
+        color: white; /* White text color */
+        padding: 10px 20px; /* Padding */
+        text-align: center; /* Center text */
+        text-decoration: none; /* Remove underline */
+        display: inline-block; /* Display as inline-block */
+        font-size: 16px; /* Increase font size */
+        margin: 4px 2px; /* Margin */
+        cursor: pointer; /* Add a pointer cursor on hover */
+        border-radius: 12px; /* Rounded corners */
+    }
+</style>
+
+

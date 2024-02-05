@@ -1,0 +1,46 @@
+﻿@model DesasterAlleviationFund.Models.Monetory
+
+@{
+    ViewData["Title"] = "EditMonetary";
+}
+
+<h1>EditMonetary</h1>
+
+<h4>Monetory</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="EditMonetary">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="ID" class="control-label"></label>
+                <input asp-for="ID" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label asp-for="Email" class="control-label"></label>
+                <input asp-for="Email" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label asp-for="DonorName" class="control-label"></label>
+                <input asp-for="DonorName" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label asp-for="Date" class="control-label"></label>
+                <input asp-for="Date" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label asp-for="Amount" class="control-label"></label>
+                <input asp-for="Amount" class="form-control" />
+            </div>
+           
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+

@@ -1,0 +1,53 @@
+﻿@model DesasterAlleviationFund.Models.Good
+
+@{
+    ViewData["Title"] = "EditGoods";
+}
+
+<h1>EditGoods</h1>
+
+<h4>Good</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="EditGoods">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="GoodId" class="control-label"></label>
+                <input asp-for="GoodId" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label asp-for="Email" class="control-label"></label>
+                <input asp-for="Email" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label asp-for="DonarName" class="control-label"></label>
+                <input asp-for="DonarName" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label asp-for="Date" class="control-label"></label>
+                <input asp-for="Date" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label asp-for="NumItems" class="control-label"></label>
+                <input asp-for="NumItems" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label asp-for="Category" class="control-label"></label>
+                <input asp-for="Category" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label asp-for="Description" class="control-label"></label>
+                <input asp-for="Description" class="form-control" />
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+

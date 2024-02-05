@@ -1,0 +1,100 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = DesasterAlleviationFund
+build_property.RootNamespace = DesasterAlleviationFund
+build_property.ProjectDir = C:\Users\lunga\OneDrive\Desktop\DesasterAlleviationFund\DesasterAlleviationFund\DesasterAlleviationFund\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\lunga\OneDrive\Desktop\DesasterAlleviationFund\DesasterAlleviationFund\DesasterAlleviationFund
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/lunga/OneDrive/Desktop/DesasterAlleviationFund/DesasterAlleviationFund/DesasterAlleviationFund/Views/Home/Disaster.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEaXNhc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lunga/OneDrive/Desktop/DesasterAlleviationFund/DesasterAlleviationFund/DesasterAlleviationFund/Views/Home/DisasterDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEaXNhc3RlckRldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lunga/OneDrive/Desktop/DesasterAlleviationFund/DesasterAlleviationFund/DesasterAlleviationFund/Views/Home/EditDisaster.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFZGl0RGlzYXN0ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lunga/OneDrive/Desktop/DesasterAlleviationFund/DesasterAlleviationFund/DesasterAlleviationFund/Views/Home/EditGoods.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFZGl0R29vZHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lunga/OneDrive/Desktop/DesasterAlleviationFund/DesasterAlleviationFund/DesasterAlleviationFund/Views/Home/EditMonetary.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFZGl0TW9uZXRhcnkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lunga/OneDrive/Desktop/DesasterAlleviationFund/DesasterAlleviationFund/DesasterAlleviationFund/Views/Home/GoodDeatils.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxHb29kRGVhdGlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lunga/OneDrive/Desktop/DesasterAlleviationFund/DesasterAlleviationFund/DesasterAlleviationFund/Views/Home/Good_Donations.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxHb29kX0RvbmF0aW9ucy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lunga/OneDrive/Desktop/DesasterAlleviationFund/DesasterAlleviationFund/DesasterAlleviationFund/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lunga/OneDrive/Desktop/DesasterAlleviationFund/DesasterAlleviationFund/DesasterAlleviationFund/Views/Home/ListDisaster.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMaXN0RGlzYXN0ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lunga/OneDrive/Desktop/DesasterAlleviationFund/DesasterAlleviationFund/DesasterAlleviationFund/Views/Home/ListGoods.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMaXN0R29vZHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lunga/OneDrive/Desktop/DesasterAlleviationFund/DesasterAlleviationFund/DesasterAlleviationFund/Views/Home/ListMonetary.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMaXN0TW9uZXRhcnkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lunga/OneDrive/Desktop/DesasterAlleviationFund/DesasterAlleviationFund/DesasterAlleviationFund/Views/Home/Monentart_Donations.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxNb25lbnRhcnRfRG9uYXRpb25zLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lunga/OneDrive/Desktop/DesasterAlleviationFund/DesasterAlleviationFund/DesasterAlleviationFund/Views/Home/MonentaryDeatils.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxNb25lbnRhcnlEZWF0aWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lunga/OneDrive/Desktop/DesasterAlleviationFund/DesasterAlleviationFund/DesasterAlleviationFund/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lunga/OneDrive/Desktop/DesasterAlleviationFund/DesasterAlleviationFund/DesasterAlleviationFund/Views/Home/Registration.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxSZWdpc3RyYXRpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lunga/OneDrive/Desktop/DesasterAlleviationFund/DesasterAlleviationFund/DesasterAlleviationFund/Views/Home/SignIn.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTaWduSW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lunga/OneDrive/Desktop/DesasterAlleviationFund/DesasterAlleviationFund/DesasterAlleviationFund/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lunga/OneDrive/Desktop/DesasterAlleviationFund/DesasterAlleviationFund/DesasterAlleviationFund/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lunga/OneDrive/Desktop/DesasterAlleviationFund/DesasterAlleviationFund/DesasterAlleviationFund/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lunga/OneDrive/Desktop/DesasterAlleviationFund/DesasterAlleviationFund/DesasterAlleviationFund/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lunga/OneDrive/Desktop/DesasterAlleviationFund/DesasterAlleviationFund/DesasterAlleviationFund/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-ano773mdqv

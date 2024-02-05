@@ -1,0 +1,146 @@
+﻿@{
+    ViewData["Title"] = "Good_Donations";
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazing Registration Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: purple;
+        }
+
+        .container {
+            max-width: 400px;
+            margin: 50px auto;
+            background-color: orchid;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+            .form-group label {
+                display: block;
+                font-weight: bold;
+                margin-bottom: 5px;
+            }
+
+            .form-group select, .form-group input {
+                width: 100%;
+                padding: 8px;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+                box-sizing: border-box;
+            }
+
+            .form-group input {
+                width: 100%;
+                padding: 8px;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+                box-sizing: border-box;
+            }
+
+            .form-group button {
+                background-color: orange;
+                color: #fff;
+                padding: 10px 20px;
+                border: none;
+                border-radius: 4px;
+                cursor: pointer;
+                font-size: 16px;
+                margin-right: 10px;
+            }
+
+                .form-group button:last-child {
+                    margin-right: 0;
+                }
+
+                .form-group button:hover {
+                    background-color: #45a049;
+                }
+
+        .category-input {
+            display: none; /* Initially hide the input field */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Registration Form</h2>
+        <form action="Good_Donations" method="post">
+            <div class="form-group">
+                <label for="dropdown">Select Option:</label>
+                <select id="dropdown" name="DonarName" onchange="toggleOtherInput()">
+                    <option value="option1">-------Select option---------</option>
+                    <option value="Anonymous">Anonymous</option>
+                    <option value="other">Other</option>
+
+                </select>
+            </div>
+            <div class="form-group">
+                <input type="text" id="otherInput" name="DonorNameInput" placeholder="Please specify" required>
+            </div>
+            <div class="form-group">
+                <label for="Date">Date:</label>
+                <input type="Date" id="Date" name="Date" required>
+            </div>
+            <div class="form-group">
+                <label for="NumItems">Number Of Items:</label>
+                <input type="number" id="NumItems" name="NumItems" required>
+            </div>
+            <div class="form-group">
+                <label for="Category">Select Category:</label><br>
+                <input type="radio" name="Category" value="clothes" id="option2"> Clothes
+                <input type="radio" name="Category" value="NonPerishableFood" id="option3"> Non-Perishable Food
+                <input type="radio" name="Category" value="other" id="other"> Other
+            </div>
+        <!-- Input     field for "Other" option -->
+        <div class="form-group">
+                <input type="text" name="Category" id="otherCategory" class="category-input">
+            </div>
+
+            <div class="form-group">
+                <label for="Description">Description:</label>
+                <textarea id="Description" name="Description" rows="5" cols="40"></textarea>
+            </div>
+
+            <div class="form-group">
+                <button type="submit">Add Donation</button>
+            </div>
+            <div>
+                @(TempData["Message"] as string)
+            </div>
+        </form>
+
+
+        <hr />
+    </div>
+    <script>
+        function toggleOtherInput() {
+            var dropdown = document.getElementById("dropdown");
+            var otherInput = document.getElementById("otherInput");
+
+            if (dropdown.value === "other") {
+                otherInput.style.display = "block";
+            } else {
+                otherInput.style.display = "none";
+            }
+        }
+
+         document.getElementById('other').addEventListener('change', function() {
+            // Toggle the visibility of the input field based on selection
+            document.getElementById('otherCategory').style.display = this.checked ? 'block' : 'none';
+        });
+    </script>
+</body>
+
+</html>
+
